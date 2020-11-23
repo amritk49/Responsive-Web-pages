@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> TRAVEL LANDING PAGE</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <header>
+                <a href="#" class="logo">Travel</a>
+                <div class="toggle" onclick="toggleMenu()"></div>
+            </header>
+            
+            <div class="content">
+                <h2> DREAM <br> TRIP</h2>
+            </div> 
+
+            <div class="play"  onclick="videoToggle()">
+                <img src="play.png"><span>Play video</span>
+            </div>
+            
+            <ul class="sci">
+                <li> <a href="#"> <img src = "facebook.png"></a> </li>
+                <li> <a href="#"> <img src = "twitter.png"></a> </li>
+                <li> <a href="#"> <img src = "instagram.png"></a> </li>
+            </ul>
+
+            <div class="navigation">
+                <ul>
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#">About</a> </li>
+                    <li> <a href="#">Booking</a> </li>
+                    <li> <a href="#">Tour</a> </li>
+                    <li> <a href="#">Blog</a> </li>
+                    <li> <a href="#">Contact</a> </li>
+                </ul>
+            </div>
+        </section>
+        <div class="trailer"  >
+            <video src="clip.mp4" controls="true" ></video>
+            <img src="close.png" class="close"  onclick="videoToggle()">
+        </div>
+
+
+    <script src="script.js"></script>
+    </body>
+
+</html>
