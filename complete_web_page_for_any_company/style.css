@@ -1,0 +1,468 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.banner .content
+{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.banner .content h2
+{
+    color: #fff;
+    font-size: 60px;
+}
+
+.banner .content p
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.banner header .logo
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;    
+}
+
+.banner header .toggle
+{
+    position: relative;
+    width: 36px;
+    height: 28px;
+    background: url('toggle.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.about
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.about .contentbox
+{
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+
+.about .contentbox .heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .contentbox .text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.about .imgbox
+{
+    background: url('window.jpg');
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.services
+{
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.services .container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.services .container .servicebox
+{
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .container .servicebox img
+{
+    max-width: 150px;
+}
+
+.services .container .servicebox h2
+{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.services .header
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.services .text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.technology
+{
+    background: #358ffc;
+    width: 100%;
+    padding: 100px;
+    padding-top : 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technology .contentbox
+{
+    max-width: 800px;
+}
+
+.technology .contentbox .heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.technology .contentbox .text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.technology .imgbox
+{
+    max-width: 250px;
+}
+
+.technology .imgbox img
+{
+    max-width: 100%;
+}
+
+.client
+{
+    background: #162c3b;
+    padding: 100px;
+    text-align: center;
+}
+
+.client .heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.client .text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.client .imgbox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.client .imgbox img
+{
+    max-width: 200px;
+    margin: 20px;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.client .imgbox img:hover
+{
+    opacity: 1;
+}
+
+.testimonial
+{
+    position: relative;
+    padding: 100px;
+    background: #000;
+    text-align: center;
+}
+
+.testimonial .heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.testimonial .container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.testimonial .container .contentbox
+{
+    background: #fff;
+    padding: 60px 50px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+}
+
+.testimonial .container .contentbox p
+{
+    font-style: italic;
+}
+
+.testimonial .container .contentbox h3
+{
+    margin-top: 15px;
+    width: 100%;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3f8ffc;
+}
+
+.contact
+{
+    padding: 100px;
+    background: #162c3b;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .heading
+{
+    margin-top: -50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom : 25px;
+}
+
+.contact .text
+{
+    max-width: 1000px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.imgbox2
+{
+    background: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.redbg
+{
+    background: url('red.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.form .inputbox
+{
+    margin-bottom: 40px;
+}
+
+.form .inputbox input
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.form .inputbox input::placeholder
+{
+    color: #fff;
+
+}
+
+.form .inputbox textarea
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+    min-height: 150px;
+    border-bottom: 2px solid #fff;
+}
+
+.form .inputbox textarea::placeholder
+{
+    color: #fff;
+}
+
+.form .inputbox input[type="submit"]
+{
+    width: 150px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+    font-weight: 400px;
+    border-radius: 50px;
+}
+
+.footer
+{
+    background: #162c3b;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li
+{
+    list-style: none;
+}
+
+.footer ul li a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.footer .text
+{
+    max-width: 1000px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.footer img
+{
+    filter: invert(1);
+    max-width: 20px;
+}
+
